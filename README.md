@@ -1,1 +1,1 @@
-# Project-2-Quiz-Maker
+# Project-2-Quiz-Making
