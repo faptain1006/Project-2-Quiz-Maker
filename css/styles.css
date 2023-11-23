@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@500&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    background: linear-gradient(45deg, #000000,#393E46);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.main-header{
+    margin-left: 100px;
+    margin-top: 200px;
+    padding: 10px;
+    color: #FAF0E6;
+    width: 735px;
+    font-size: 1.5rem;
+}
+
+.main-header h1 {
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.main-header h1::first-letter{
+    color: #068FFF;
+    font-size: 5rem;
+}
+
+
+
+.start-button{
+    width: 300px;
+    height: 100px;
+    background-color: #036bc0;
+    border: none;
+    border-radius: 40px;  
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: transform 0.2s;
+    transition: text-shadow 0.1s;
+    line-height: 95px;
+}
+
+.start-button:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #FFD717;
+}
+
+.start-button a{
+    margin: 0;
+    color: #FAF0E6;
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+
+.infra-img {
+    position: fixed;
+    width: 1000px;
+    height: 893px;
+    max-width: 100%;
+    max-height: 100%;
+    top: 40px; 
+    left: 830px;
+}
+
+.page-title h1::first-letter {
+    font-size: 3rem;
+    color: #068FFF;
+}
+
+.page-title h1 {
+    display: inline-block;
+    color: #FAF0E6;
+}
+
+.page-title h1:first-child {
+    border-right: 5px dotted #FAF0E6;
+    padding-right: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+i.fa-wifi {
+    margin-left: 20px;
+    color: #068FFF
+}
+
+.box {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: none;
+    height: 600px;
+    border: none;
+    text-align: center;
+    color: #FAF0E6;
+    font-size: 1.5rem;
+}
+
+
+.question-number h2 {
+    margin: 5px auto 5px auto;
+}
+
+.question {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.choices {
+    line-height: 70px;
+    color: #FAF0E6;  
+    text-decoration: none;
+    transition: text-shadow 0.1s;
+}
+
+.choices:hover{
+    text-shadow: 0 0 10px #FFD717;
+    font-size: 2rem;
+}
+
+.answer {
+    line-height: 70px;
+    color: #FAF0E6; 
+}
+
+.correct-answer {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #FFD717;
+}
+
+.wrong-answer {
+    text-shadow: none;
+    opacity: .4;
+}
+
+.info {
+    margin: 50px auto 50px auto;
+    background-color: #036bc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.info i.fa-xmark  {
+    font-size: 5rem;
+    color: #B73E3E;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.info i.fa-check  {
+    font-size: 5rem;
+    color: #03C988;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.forward a {
+    color: #FAF0E6;
+    text-decoration: none;
+    transition: text-shadow 0.1s;
+}
+
+.forward a:hover {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #FFD717;
+}
+
+.forward i.fa-arrow-right {
+    font-size: 3rem;
+    color:  #FAF0E6;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.forward i.fa-house {
+    font-size: 3rem;
+    color:  #FAF0E6;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
